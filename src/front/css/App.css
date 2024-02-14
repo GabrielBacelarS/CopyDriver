@@ -1,0 +1,46 @@
+.sideBar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #3F51B5; 
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sideBar .logo {
+    color: #FFFFFF; /* Branco */
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sideBar .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar .menuItem {
+    display: flex;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #FFFFFF; /* Branco */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s ease; /* Adiciona uma transição suave */
+}
+
+.sideBar .menuItem .icon {
+    margin-right: 10px;
+    transition: transform 0.2s ease; /* Adiciona uma transição suave */
+}
+
+.sideBar .menuItem:hover {
+    color: #2196F3; /* Azul Secundário */
+}
+
+.sideBar .menuItem:hover .icon {
+    transform: scale(1.1); /* Aumenta ligeiramente o ícone */
+}
